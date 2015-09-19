@@ -1,0 +1,37 @@
+{
+  "name": "toggle-value",
+  "version": "1.0.0",
+  "description": "Toggles a boolean scope value when a given event occurs.",
+  "main": "toggle.js",
+  "scripts": {
+    "test": "testee test/test.html --browsers firefox --reporter Spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matthewp/toggle-value.git"
+  },
+  "keywords": [
+    "canjs",
+    "can.view.attr"
+  ],
+  "author": "Matthew Phillips",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthewp/toggle-value/issues"
+  },
+  "homepage": "https://github.com/matthewp/toggle-value",
+  "dependencies": {
+    "can": "^2.3.0-pre.0",
+    "steal": "^0.12.0-pre.0",
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {
+    "steal-qunit": "^0.1.1",
+    "testee": "^0.2.1"
+  },
+  "system": {
+    "npmIgnore": [
+      "testee"
+    ]
+  }
+}
