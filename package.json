@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/matthewp/toggle-value",
   "dependencies": {
-    "can": "^2.3.0-pre.0",
+    "can": "^2.3.0-pre || ^2.3.0-beta || ^2.3.0",
     "steal": "^0.12.0-pre.0",
     "jquery": "^2.1.4"
   },
